@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Roll Call Assistant</string>
+    <string name="roll_call">Roll Call</string>
+    <string name="statistics">Statistics</string>
+    <string name="setting">Settings</string>
+    <string name="class_management">Class Management</string>
+    <string name="course_management">Course Management</string>
+
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="leave">Leave</string>
+    <string name="none">None</string>
+
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+
+    <string name="student_id_format">ID: %1$s</string>
+    <string name="absence_count_format">Absences: %1$d times</string>
+
+    <string name="ui_preference">UI Preferences</string>
+    <string name="button_style_title">Button Style</string>
+    <string name="button_style_desc">Switch between text and icon display</string>
+    <string name="style_text">Text</string>
+    <string name="style_icon">Icon</string>
+
+    <string name="default_status_title">Default Status</string>
+    <string name="default_status_desc">Set initial status when starting roll call</string>
+
+    <string name="select_course">Select Course</string>
+    <string name="select_date">Select Date</string>
+    <string name="start_roll_call">Start Roll Call</string>
+    <string name="finish_roll_call">Finish Roll Call</string>
+
+    <string name="session_history">Roll Call History</string>
+    <string name="export">Export Data</string>
+    <string name="export_options">Export Options</string>
+    <string name="include_student_name">Include Name</string>
+    <string name="include_student_id">Include ID</string>
+    <string name="include_gender">Include Gender</string>
+    <string name="include_status">Include Status</string>
+    <string name="file_format">File Format</string>
+    <string name="export_success">Export Successful</string>
+
+    <string name="add_course">Add Course</string>
+    <string name="course_name_hint">Enter course name</string>
+    <string name="no_courses">Please add courses first</string>
+
+    <string name="add_student">Add Student</string>
+    <string name="student_name_hint">Student Name</string>
+    <string name="student_id_hint">Student ID</string>
+    <string name="no_students">No students, tap to add</string>
+    <string name="delete_confirm">Confirm delete?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="delete">delete</string>
+    <string name="session_detail">Session Details</string>
+    <string name="total_count">Total</string>
+    <string name="attendance_rate">Attendance Rate</string>
+
+    <string name="theme_selection_title">Theme Selection</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_dynamic">Dynamic Color</string>
+    <string name="theme_deep_sea">Deep Sea</string>
+    <string name="theme_forest">Forest</string>
+    <string name="theme_sunset">Sunset</string>
+    <string name="theme_preset">Preset</string>
+    <string name="theme_mode_title">Theme Mode</string>
+
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="no_reminders">No reminders</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="repeat_cycle">Repeat Cycle</string>
+    <string name="reminder_time">Reminder Time</string>
+
+    <string name="about_app">About</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="about_desc">An open-source tool focused on efficient roll call and attendance management, designed to simplify daily roll call processes and provide detailed data analysis.</string>
+    <string name="open_source_repo">Source Code</string>
+    <string name="sponsor_developer">Sponsor Developer</string>
+    <string name="feedback_issue">Report Issue</string>
+    <string name="mit_license">GPL License</string>
+
+    <string name="leave_appointment">Leave Appointment</string>
+    <string name="no_leave_appointments">No leave appointments</string>
+    <string name="add_leave_appointment">Add Appointment</string>
+    <string name="leave_date">Leave Date</string>
+    <string name="leave_reason">Reason (Optional)</string>
+    <string name="save">Save</string>
+    <string name="search_student_hint">Search name or ID...</string>
+    <string name="select_student">Select Student</string>
+
+    <string name="quick_start">Quick Start</string>
+    <string name="copy_all">Copy All</string>
+    <string name="export_preview">Export Preview</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="automation_reminders">Automation &amp; Reminders</string>
+    <string name="appearance_theme">Appearance &amp; Theme</string>
+    <string name="others">Others</string>
+    <string name="modify_course">Modify Course</string>
+    <string name="edit_student">Edit Student</string>
+    <string name="student_name">Name</string>
+    <string name="student_id">Student ID</string>
+
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+
+    <string name="day_mon_full">Monday</string>
+    <string name="day_tue_full">Tuesday</string>
+    <string name="day_wed_full">Wednesday</string>
+    <string name="day_thu_full">Thursday</string>
+    <string name="day_fri_full">Friday</string>
+    <string name="day_sat_full">Saturday</string>
+    <string name="day_sun_full">Sunday</string>
+
+    <!-- Additional UI strings -->
+    <string name="theme_system_short">System</string>
+    <string name="theme_light_short">Light</string>
+    <string name="theme_dark_short">Dark</string>
+    <string name="theme_dynamic_short">Dynamic</string>
+    <string name="theme_preset_short">Preset</string>
+    
+    <string name="app_title_full">Roll Call Assistant</string>
+    <string name="version_info">Version 1.0.0 (Stable)</string>
+    <string name="made_by">Made with Love by Qiaosheng</string>
+    
+    <string name="add_leave_appointment_title">Add Leave Appointment</string>
+    <string name="reason_label">Reason</string>
+    <string name="search_course_hint">Search courses...</string>
+    
+    <string name="roll_call_record_header">【Roll Call Record】</string>
+    <string name="course_label">Course: </string>
+    <string name="time_label">Time: </string>
+    <string name="total_count_label">Total: </string>
+    <string name="people_unit"> people</string>
+    
+    <string name="repeat_label">Repeat</string>
+    <string name="select_course_label">Select Course</string>
+    <string name="select_reminder_time">Select Reminder Time</string>
+    
+    <string name="confirm_button">OK</string>
+    <string name="theme_description">%1$s</string>
+    <string name="import_label">import</string>
+    <string name="export_label">export</string>
+</resources>
