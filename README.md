@@ -3,10 +3,20 @@
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-blue.svg)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Compose-Material3-brightgreen.svg)](https://developer.android.com/jetpack/compose)
+[![Android](https://img.shields.io/badge/Android-12.0%2B-success.svg)](https://developer.android.com/)
 
-**RollCallAssistant** is a modern, efficient, and aesthetically pleasing attendance management tool for Android. Built with Jetpack Compose and Material 3, it aims to simplify the roll-call process for educators and organizers while providing clean data visualization and seamless user experience.
+**RollCallAssistant** is a modern, efficient, and aesthetically pleasing attendance management tool for Android. Built with **Jetpack Compose** and **Material 3**, it simplifies the roll-call process for educators and organizers while providing clean data visualization and a seamless user experience.
 
 [English](#english) | [简体中文](#简体中文)
+
+---
+
+## 📱 Preview
+
+|                  课程管理                  |                      设置                      |   请假预约                                 |   结果统计                                 |   考勤界面                                 |     班级管理                                 |
+| :----------------------------------------: | :--------------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: |
+| ![Main Screen](metadata/screenshots/1.jpg) | ![Theme Selection](metadata/screenshots/2.jpg) | ![Roll Call](metadata/screenshots/4.jpg) | ![Roll Call](metadata/screenshots/5.jpg) | ![Roll Call](metadata/screenshots/7.jpg) | ![Roll Call](metadata/screenshots/3.jpg) |
+|                                            |                                                |                                          |                                          |                                          |                                          |
 
 ---
 
@@ -15,11 +25,12 @@
 ### 🌟 Key Features
 
 -   **🎯 Quick Roll-Call**: Start a session in seconds with customizable default statuses.
+-   **💾 Data Persistence**: Full **Room Database** integration for local data storage and management.
 -   **📊 Statistics & Data Visualization**: View attendance rates per course/session with detailed breakdowns.
 -   **📅 Leave Management**: Pre-register student leave requests to automatically skip them during sessions.
 -   **🎨 Personalization**: 
     -   Multiple preset themes (Deep Sea, Forest, Sunset, etc.).
-    -   Dynamic color support (Material You).
+    -   Dynamic color support (**Material You**).
     -   Customizable button styles (Text/Icon).
 -   **🔔 Automation**: Reminder settings to ensure you never miss a roll-call.
 -   **📤 Easy Export**: One-click preview and clipboard copy of attendance reports.
@@ -30,7 +41,8 @@
 -   **Language**: [Kotlin](https://kotlinlang.org/)
 -   **UI Framework**: [Jetpack Compose](https://developer.android.com/jetpack/compose)
 -   **Design System**: [Material Design 3](https://m3.material.io/)
--   **Architecture**: Modular UI & Data separation (ready for ViewModel/Repository pattern).
+-   **Database**: [Room](https://developer.android.com/training/data-storage/room)
+-   **Architecture**: MVVM (ViewModel + Repository)
 -   **Min SDK**: 31 (Android 12)
 -   **Target SDK**: 36
 
@@ -40,20 +52,8 @@
     ```bash
     git clone https://github.com/qiaoshengix/RollCallAssistant.git
     ```
-2.  **Open in Android Studio**: Use the latest Hedgehog or Jellyfish version for best Compose support.
+2.  **Open in Android Studio**: Recommended Ladybug or newer for best Compose support.
 3.  **Build & Run**: Simply hit the "Run" button to deploy to your emulator or device.
-
-### 📂 Project Structure
-
-```text
-app/src/main/java/com/qiaosheng/rollcallassistant/
-├── model/          # Data classes and Domain Models
-├── ui/
-│   ├── components/ # Reusable UI atoms (Chips, Items, etc.)
-│   ├── screens/    # Full screen implementations
-│   └── theme/      # Material 3 Color Schemes & Typography
-└── MainActivity.kt # Navigation Controller & Top-level State
-```
 
 ---
 
@@ -62,11 +62,12 @@ app/src/main/java/com/qiaosheng/rollcallassistant/
 ### 🌟 核心功能
 
 -   **🎯 快速点名**: 秒级开启点名会话，支持设置默认考勤状态。
+-   **💾 数据持久化**: 集成 **Room 数据库**，确保点名记录与学生数据本地安全存储。
 -   **📊 统计与可视化**: 查看每门课程/每次点名的出勤率，包含详尽的状态分布。
 -   **📅 请假管理**: 提前登记学生请假信息，点名时自动同步状态。
 -   **🎨 个性化定制**:
     -   多种预设主题（深海蓝、森野绿、落日橙等）。
-    -   支持动态色彩 (Material You)。
+    -   支持 **动态色彩 (Material You)**。
     -   可自定义按钮样式（文字或图标）。
 -   **🔔 智能提醒**: 设置点名提醒任务，确保考勤准时高效。
 -   **📤 数据导出**: 一键预览点名报告并快速复制至剪切板。
@@ -77,6 +78,7 @@ app/src/main/java/com/qiaosheng/rollcallassistant/
 -   **编程语言**: [Kotlin](https://kotlinlang.org/)
 -   **UI 框架**: [Jetpack Compose](https://developer.android.com/jetpack/compose)
 -   **设计规范**: [Material Design 3](https://m3.material.io/)
+-   **数据持久化**: [Room Persistence Library](https://developer.android.com/training/data-storage/room)
 -   **架构模式**: 模块化 UI 与数据分离（已预留 ViewModel 接入点）。
 -   **最低支持**: Android 12 (API 31)
 
@@ -93,12 +95,10 @@ app/src/main/java/com/qiaosheng/rollcallassistant/
 
 ## 🗺 Roadmap (Future Features)
 
--   [ ] **Persistence**: Integrate **Room Database** for permanent data storage.
--   [ ] **Architecture**: Migrate high-level state to **ViewModels** for better lifecycle handling.
 -   [ ] **Connectivity**: Backend service integration for multi-device sync.
 -   [ ] **Automation**: SMS/Message auto-parsing for leave requests.
 -   [ ] **Import/Export**: Support for CSV/Excel batch student import.
--   [ ] **Design System**: Further abstraction of reusable components.
+-   [ ] **Analytics**: Advanced attendance trends and student health scoring.
 
 ## 🤝 Contributing
 
