@@ -51,8 +51,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.qiaosheng.rollcallassistant.R
-import com.qiaosheng.rollcallassistant.model.RollCallSession
-import com.qiaosheng.rollcallassistant.model.RollCallStatus
+import com.qiaosheng.rollcallassistant.data.models.*
 import com.qiaosheng.rollcallassistant.ui.components.DetailStatItem
 
 @OptIn(ExperimentalMaterial3Api::class)

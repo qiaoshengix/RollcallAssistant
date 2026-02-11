@@ -23,7 +23,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.qiaosheng.rollcallassistant.model.StatusDisplayStyle
+import com.qiaosheng.rollcallassistant.data.models.StatusDisplayStyle
 
 // TODO: In the future, these components might be moved into a more comprehensive design system module.
 

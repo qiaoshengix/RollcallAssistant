@@ -60,8 +60,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.qiaosheng.rollcallassistant.R
-import com.qiaosheng.rollcallassistant.model.LeaveAppointment
-import com.qiaosheng.rollcallassistant.model.Student
+import com.qiaosheng.rollcallassistant.data.models.*
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

@@ -1,4 +1,6 @@
-package com.qiaosheng.rollcallassistant.model
+package com.qiaosheng.rollcallassistant.data.local
+
+import com.qiaosheng.rollcallassistant.data.models.*
 
 import android.content.Context
 import androidx.room.Database

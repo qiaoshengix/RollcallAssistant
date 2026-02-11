@@ -1,4 +1,4 @@
-package com.qiaosheng.rollcallassistant.model
+package com.qiaosheng.rollcallassistant.data.models
 
 import androidx.room.*
 import com.google.gson.Gson
@@ -64,10 +64,6 @@ data class ReminderSetting(
     val repeatDays: String, // Comma separated: 1,2,3
     var isEnabled: Boolean = true
 )
-
-enum class SettingSubPage { MAIN, COURSE, STUDENT, THEME, ABOUT, REMINDER }
-
-enum class RollCallSubPage { SETUP, LEAVE_APPOINTMENT }
 
 class Converters {
     private val gson = Gson()

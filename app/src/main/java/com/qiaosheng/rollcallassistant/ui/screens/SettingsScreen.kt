@@ -88,11 +88,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.qiaosheng.rollcallassistant.R
-import com.qiaosheng.rollcallassistant.model.ReminderSetting
-import com.qiaosheng.rollcallassistant.model.Course
-import com.qiaosheng.rollcallassistant.model.RollCallStatus
-import com.qiaosheng.rollcallassistant.model.StatusDisplayStyle
-import com.qiaosheng.rollcallassistant.model.Student
+import com.qiaosheng.rollcallassistant.data.models.*
 import com.qiaosheng.rollcallassistant.ui.components.AboutItem
 import com.qiaosheng.rollcallassistant.ui.components.ManagementItem
 import com.qiaosheng.rollcallassistant.ui.theme.ThemeMode
